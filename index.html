@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鏢人</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;900&family=Poppins&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fa79f509a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <h2>BLADES OF THE GUARDIANS<span>鏢人</span></h2>
+      <div id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <a href="#">首頁</a>
+        <a href="#introduction">簡介</a>
+        <a href="#comic">漫畫</a>
+        <a href="#characters">角色</a>        
+        <a href="#evaluation">留言</a>
+        <a href="#back">交流</a>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      
+      <h1>中原廟堂&nbsp;<span class="pulser">/ 西域江湖</span></h1>
+      <p>天下熙熙皆爲利來，天下攘攘皆爲利往。<br>
+        —— 司馬遷《史記》</p>
+      <a href="#introduction" class="hero-btn">LEARN MORE</a>
+    </div>
+  </section>
+
+  <section id="introduction">
+    <h1>INTRODUCTION</h1>
+    <p style="color: #777;">“我的朋友說，奴隸可以用錢贖回來，但人命，用多少錢都救不回來。你欠下的命債，就算是追到天涯海角，也得討回來。”<br>——特別附錄 大漠最平常的一天</p>
+    <div class="row">
+      <div class="col">
+        <h3>Author</h3>
+        <p> 許先哲，中国漫画家，主要作品有《镖人》等。<br>
+          许先哲从小深受港片、意大利西部片、日本剑戟片等影视影响，又对刺客列传中的侠客精神深深着迷。以历史根基为内核，融合这些趣味做出一个大杂烩式电影一般的武侠故事，成为《镖人》的创作初衷。<br>
+          在许先哲看来，自己并不是在创造，而是发现并展示给读者那些真实存在于另一个世界里的人物，周刊连载再辛苦，他也对内容无法妥协。 
+          <br>“比起点击量，那些活生生的读者们用文字传达的温度，才是创作者前行的力量。”<br>许先哲说</p>
+      </div>
+      <div class="col">
+        <h3>Story Content</h3>
+        <p> 大業三年（西元607年），隋王朝在隋煬帝楊廣的殘暴統治下民不聊生。 <br>身手不凡的鏢客刀馬行走於西域大漠，在躲避朝廷追殺的途中，他接下了一個目的地為首都長安的護送任務，本以為只是一趟簡單的護鏢，卻沒想到一路危機四伏，險象環生。
+        <br>一場牽動天下命運的旅途就此拉開帷幕……</p>
+      </div>
+      <div class="col">
+        <h3>Influence</h3>
+        <p> 凭借严谨的态度与过硬的质量，《镖人》以国漫崛起之姿强势输出到海外，不仅登陆日本知名电子阅读平台めちゃコミック连载，获得漫画大师高桥留美子（代表作《犬夜叉》）、藤泽亨（代表作《麻辣教师GTO》）的推荐，还3次登上日本央视NHK电视台新闻报道节目，被日媒誉为“世界级水平的中国动漫精品”</p>
+      </div>
+     
+    </div>
+  </section>
+
+  <section id="comic">
+    <h1>COMIC CHAPTERS</h1>
+    <p>“救人於難，那是菩薩的事。咱們是俗人，可不能平白無故就替人出頭。先把條件講好，大家彼此都心安理得。這才叫好買賣。”
+      <br>—— 第十回 竖与燕子娘
+    </p>
+    <div class="row">
+      <div class="col">
+        <img src="./images/comic-1.webp" alt="london">
+        <div class="layer">
+          <h3>章回壹 游俠</h3>
+        </div>
+      </div>
+      <div class="col">
+        <img src="./images/comic-2.webp" alt="london">
+        <div class="layer">
+          <h3>章回貳 大漠</h3>
+        </div>
+      </div>
+      <div class="col">
+        <img src="./images/comic-3.webp" alt="london">
+        <div class="layer">
+          <h3>章回叁 江湖</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="characters">
+    <h1>MAJOR CHARACTERS</h1>
+    <p>“知世郎是点灯人，点灯人不需要武艺。”</p>
+    <div class="row">
+      <div class="col">
+        <img src="./images/character-1.webp" alt="library" onclick="showFullImage(event)">
+       
+        <p>身份不明的神秘鏢客，曾是隋國驍騎衛中的一員。 武功高强，隨身攜帶大量武器，常戴斗笠，著披風裝扮，與孩子小七一起行走江湖。 性格豪放，心思縝密，非常疼愛小七。 表面上為利益驅使而行動，實則按照自己的道義和處世原則來行事。</p>
+      </div>
+      <div class="col">
+        <img src="./images/character-2.webp" alt="basketball" onclick="showFullImage(event)">
+      
+        <p>刀馬帶著的孩子，身份神秘，懂事可愛，刀馬騎在馬背上時就讓小七坐在自己懷裡，一起行走江湖。 小七與刀馬常規約定：在刀馬殺人時，小七自覺蒙上眼睛數數，數到約定的數位，小七就能睜開眼，同時刀馬也保證將敵人在此時間內全部擊倒。</p>
+      </div>
+      <div class="col">
+        <img src="images/character-3.webp" alt="cafeteria" onclick="showFullImage(event)">
+       
+        <p>老莫的女兒，性格直爽，身手矯健。 喜歡刀馬，被刀馬與小七稱呼為“丫頭”。
+        </p>
+      </div>
+      <div class="col">
+        <img src="images/character-4.webp" alt="cafeteria" onclick="showFullImage(event)">
+    
+        <p>身著紅羅緞，臉上塗抹著詭異的紋路，平時說著一些不著邊際的話，認真起來卻仿佛通曉天下事。 其真實身份為花顏團魁首，曾領導了對隋朝的叛亂，之後被驍騎衛平定。
+        是被隋國朝廷大為忌憚的通緝要犯，身患重症，為時不多，曾通過老莫的幫助前往天竺，之後被老莫委託給刀馬護送前往長安，欲求顛覆朝廷。</p>
+      </div>
+      <div class="col">
+        <img src="images/character-5.webp" alt="cafeteria" onclick="showFullImage(event)">
+  
+        <p>身手不凡的劍客，右臉有一道傷疤，綽號“玉面鬼”，出身大有來頭，所帶佩刀源於柱國大將軍。</p>
+      </div>
+      <div class="col">
+        <img src="images/character-6.webp" alt="cafeteria" onclick="showFullImage(event)">
+     
+        <p>是大興城坊間勢力人物的侍婢，樣貌出眾的奇女子，風情萬種且心眼頗多。 學紅拂女的事蹟與小白臉私奔，之後被主家委託的豎所追捕拘押。 在途中遇到刀馬一行人，一路上總是想伺機脫逃。 在眾人被西域家族追殺之時，曾多次出手保護小七不受傷害。</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="popup">
+    <img id="fullImage" src="">
+  </div>
+
+  <section id="evaluation">
+    <h1>EVALUATION</h1>
+    <p style="color: #777;">“一個人憑藉自身的力量和意志，可以對抗數十人、上百人。但再强的人，都無力對抗時勢的洪流。除非，你來造一個時勢。”
+      <br> ——第五十回 家園
+    </p>
+    <div class="row">
+      <div class="col">
+        <img src="images/evaluate-1.jpg" alt="">
+        <div>
+          <p>
+            首张漫画《镖人》的人设，好像井上雄彦的《浪客行》里的宫本武藏。感觉蛮不错的，国漫真的值得被期待。
+          </p>
+          <h3>刀馬我男神</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/evaluate-2.jpg" alt="">
+        <div>
+          <p>
+            许先哲的漫画《镖人》真不错。序章的风格有点《苍天航路》的影子，正篇却是《火凤燎原》的范儿。期待这部将来能出单行本，这样的国漫才值得花钱收藏。
+          </p>
+          <h3>ringo林檎</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/evaluate-3.webp" alt="">
+        <div>
+          <p>
+            《镖人》是一部让人震撼的作品，无论是画风还是剧情都非常成熟，让人看到了国漫的希望。作品对人物的刻画很立体，大背景的渲染也很到位，值得推荐给爱看漫画的各位。
+          </p>
+          <h3>小牛牛</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+      <div class="col">
+        <img src="images/evaluate-4.webp" alt="">
+        <div>
+          <p>
+            看过之后，这部漫画给我的第一印象是：要在白天看，因为场面有点暴力血腥。当初我看火影里面伊那利的父亲惨状，以及海贼王里杰克对猫蝮蛇犬岚动刑的场面，都是硬着头皮看的。镖人这种刀枪入体斩首爆头的场面更有冲击力，胆小的朋友慎点。
+          </p>
+          <h3>大王個花</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="back">
+    <h1>⌈ 信念越強，力量越强！⌋</h1>
+    <a href="" class="hero-btn">BACK</a>
+  </section>
+
+  <section class="footer">
+    <h4>About Me</h4>
+    <p>Hello! 我是Ringo，
+      本網站為一個純靜態網頁，該項目已部署至GitHub上,<br>
+      點擊這裏可以查看我的設計報告
+    </p>
+    <div>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-html5"></i>
+    </div>
+    <p>Made With <i class="fa-regular fa-heart"></i> By Ringo</p>
+  </section>
+  
+  <script>
+    var navLinks = document.getElementById('navLinks');
+       
+    function showMenu() {
+      navLinks.style.right = '0';
+      navLinks.addEventListener('click',function(){
+        hideMenu();
+      })
+      
+    }
+    function hideMenu() {
+      navLinks.style.right = '-30%';
+    }
+
+    function showFullImage(event) {
+      // 设置要全屏显示的图片src
+      document.getElementById('fullImage').src = event.target.src;
+      // 得到Y滚动条宽度
+      // innerWidth是以像素为单位的窗口的内部宽度。如果垂直滚动条存在，则这个属性将包括它的宽度
+      // offsetWidth 是一个只读属性，返回一个元素的布局宽度
+      var scrollbarWidth = window.innerWidth - document.body.offsetWidth;
+      // body不能滚动      
+      document.body.style.overflowY = 'hidden';
+      // 防止页面在隐藏滚动条时闪动      
+      document.body.style.marginRight = scrollbarWidth + 'px';
+
+      var popup = document.getElementById('popup');
+      popup.style.display = 'flex';
+      popup.style.animation = 'fadein 0.5s';
+      popup.onclick = function () {
+        popup.style.animation = 'fadeout 0.6s';
+        // 延时将display置为none，以让有时间动画。注意设置隐退的时间多一点会更平滑。
+        setTimeout(() => {
+          document.body.style.overflowY = 'auto';// body恢复滚动
+          document.body.style.marginRight = 0;          
+          popup.style.display = 'none';
+        }, 500);
+      }
+    }
+  </script>
+</body>
+
+</html>
