@@ -30,7 +30,7 @@
     </div>
   </section>
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper1.png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper1.png?raw=true)
 
 ### 2.主页设计
 #### 2.1 简介页面
@@ -60,7 +60,7 @@
     </div>
   </section>
   ```
-  ![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(1).png)
+  ![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(1).png?raw=true)
 
 #### 2.2 漫画界面
 该页面介绍了漫画的章回，主要以大图的形式进行章节卷图的展示，同时，在每个展示图上加上鼠标停留效果。
@@ -92,7 +92,7 @@
     </div>
   </section>
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(2).png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(2).png?raw=true)
 
 #### 2.3 人物界面
 该界面将介绍漫画主要角色，共六个，设计六个纵向矩形的人物卡片，用\<div>括住这六张卡片实现多列布局。
@@ -137,7 +137,7 @@
   </section>
 
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(3).png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(3).png?raw=true)
 
 #### 2.4 评价页面
 该页面展示《镖人》漫画的网络评价，摘选了四条评论，形成2*2的布局，每条评论单元包括头像、昵称、评论、评分这四个元素。
@@ -207,7 +207,7 @@
     </div>
   </section>
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(4).png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(4).png?raw=true)
 
 #### 2.5 BACK
 主页的结束页面，在该页面使用漫画插图增强主题颜色，并添加“BACK”按钮，可返回首页。
@@ -217,7 +217,7 @@
     <a href="" class="hero-btn">BACK</a>
   </section>
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(5).png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(5).png?raw=true)
 
 
 ### 3. 其他设计
@@ -255,7 +255,7 @@
   font-size: 3.5rem;
 }
 ```
-![picture1](https://gitee.com/goodog-ringo/my-page/raw/master/images/paper2%20(2).png)
+![picture1](https://github.com/Ringo-linqin/comic-webPage/blob/main/images/paper2%20(2).png?raw=true)
 
 ## 三、遇到的问题
 ### 1.css样式效果不理想
